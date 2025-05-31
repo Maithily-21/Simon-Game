@@ -1,6 +1,7 @@
 # 🎮 Simon Game
 
-A simple and fun **Simon Game** built with HTML, CSS, and JavaScript. Follow the pattern of flashing buttons and test your memory as the sequence gets longer and faster!
+A simple and fun **Simon Game** built with HTML, CSS, and JavaScript.
+Follow the pattern of flashing buttons and test your memory as the sequence gets longer and faster!
 
 ## 🧠 How to Play
 
@@ -10,13 +11,6 @@ A simple and fun **Simon Game** built with HTML, CSS, and JavaScript. Follow the
 - The sequence gets longer with each level.
 - The game ends when you make a mistake.
 - Your score is displayed based on the level you reached.
-
-## 🛠️ Features
-
-- Level progression with increasing difficulty.
-- Real-time feedback with button animations.
-- Keeps track of the player's score.
-- Simple, responsive UI.
 
 ## 🔧 Technologies Used
 
