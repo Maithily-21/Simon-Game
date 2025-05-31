@@ -8,17 +8,21 @@ let started = false;
 let level = 0;
 
 let h2 = document.querySelector("h2");
+let startBtn = document.getElementById("startBtn");
 
-//To detect if any key was pressed in document to start the game
-document.addEventListener("keypress",function(){
-   if(started == false){
-        console.log("Game Started ");
+// Start game on keypress (desktop)
+document.addEventListener("keypress", startGame);
+
+// Start game on button click (mobile)
+startBtn.addEventListener("click", startGame);
+
+function startGame() {
+    if (!started) {
         started = true;
-
+        startBtn.style.display = "none"; // Hide start button after game starts
         levelup();
-       
-   }
-});
+    }
+}
 
 function gameFlash(btn){
     btn.classList.add("flash");
@@ -80,5 +84,5 @@ function reset(){
     gameSeq = [];
     userSeq = [];
     level = 0;
-
+    startBtn.style.display = "inline-block"; // Show start button again
 }
