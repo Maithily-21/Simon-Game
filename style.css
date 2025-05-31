@@ -12,6 +12,19 @@ body{
     margin: 2em;
      
 }
+#startBtn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+#startBtn:active {
+    background-color: #0097a7;
+}
 .btn-container{
     display:flex;
     justify-content: center;
